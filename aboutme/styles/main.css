@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 75%;
+    padding-left: 10%;
+    background: rgb(239, 241, 242);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.content {
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+    line-height: 1;
+
+}
+
+hr {
+    width: 40%;
+    padding: 0;
+    
+    
+}
