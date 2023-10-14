@@ -1,6 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+
 body {
     background-color: #CAF0F8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    padding: 0;
 }
 
 header {
@@ -16,6 +25,10 @@ header {
     background-color: #CAF0F8;
     color: #0077B6;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -27,20 +40,26 @@ nav a {
     text-align: center;
     color: #0077B6;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
-    background-color: #0077B6;
+    background-color: rgb(0, 119, 182, .3);
     color: #FFFFFF;
+   
 }
 
 .msg {
     background-color: #90E0EF;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #90E0EF;
     color: #000000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -60,16 +79,23 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
 .msg h2 {
     color: #0077B6;
+    font-family: Charm, Helvetica, sans-serif;
 } 
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .button-box {
@@ -82,6 +108,9 @@ main section {
 
 .home-title {
     color: #0077B6;
+    font-family: Charm, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -95,8 +124,25 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
+}
+
+#logo-link {
+    padding-top: 5px;
+}
+
+.card-img {
+    border: 10px solid #00B4D8;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
