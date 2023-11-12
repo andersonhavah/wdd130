@@ -118,6 +118,10 @@ footer .social img {
     margin: 100px;
 }
 
+#hero-img {
+    width: 100%;
+}
+
 #hero-msg h4 {
     color: #FFFFFF;
 }
@@ -150,10 +154,6 @@ main section img {
     box-sizing: border-box;
 }
 
-#hero-img {
-    width: 100%;
-}
-
 .card-img, .mountains {
     width: 100%;
 }
@@ -183,7 +183,7 @@ main section img {
     color: #0077B6;
     font-family: Charm, Helvetica, sans-serif;
     font-size: 2em;
-    margin-top: 10px;
+    margin: 5px;
 }
 
 h4 {
@@ -227,8 +227,101 @@ h4 {
     margin: 200px 0;
 }
 
+/* FAQ page styling */
+#faq-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 20px;
+}
+
+#faq-hero-img {
+    width: 100%;
+    height: 70%;
+}
+
+#faq-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#faq-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 550px;
+    margin-left: -150px;
+    border: 2px solid black;
+    width: 500px;
+}
+
+#faq-hero-msg h1 {
+    text-align: center;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: -250px;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.faq-grid h2 {
+    text-align: center;
+}
+
+.faq-grid .question1 img, .faq-grid .question2 img {
+    box-sizing: border-box;
+}
+
+.faq-grid .question1 {
+    grid-column: 2/10;
+    grid-row: 1/2;
+}
+
+.faq-grid .question1 img {
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+
+.faq-grid .question1 p {
+    grid-column: 6/10;
+    grid-row: 1/2;
+}
+
+.faq-grid .question2 {
+    grid-column: 2/10;
+    grid-row: 3/5;
+}
+
+.faq-grid .question3 {
+    grid-column: 2/10;
+    grid-row: 5/7;
+}
+
+.faq-grid .question4 {
+    grid-column: 2/10;
+    grid-row: 7/9;
+}
+
+.faq-grid .question5 {
+    grid-column: 2/10;
+    grid-row: 9/11;
+}
+
+.faq-grid .question6 {
+    grid-column: 2/10;
+    grid-row: 11/13;
+}
+
+.faq-grid p {
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, #faq-hero, #faq-grid {
         display: block;
         height: auto;
     }
@@ -239,10 +332,10 @@ h4 {
         display: block;
         padding: 15px;
     }
-    #hero {
+    #hero, #faq-hero {
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg, #faq-hero-msg {
         margin-top: 0;
     }
     #hero-msg h4 {
@@ -252,7 +345,7 @@ h4 {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapids-card, .question1, .question2, .question3, .question4, .question5, .question6 { 
         margin: 50px auto;
         width: 60%;
     }
