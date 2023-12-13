@@ -209,7 +209,7 @@ iframe {
     width: 513px;
     height: 280px;
     border: none;
-    
+    margin: 25px;
 }
 
 .video4 {
@@ -511,6 +511,7 @@ button {
         height: 250px;
         border: none;
         align-self: center;
+        padding-bottom: 25px;
     }
     .video4 {
         margin-left: 0;
