@@ -205,6 +205,17 @@ main section {
 }
 
 /* Page 2 - Recipe Collection Styling */
+iframe {
+    width: 513px;
+    height: 280px;
+    border: none;
+    
+}
+
+.video4 {
+    margin-left: 200px;
+}
+
 .recipecol-grid {
     display: grid;
     grid-template-columns: repeat(13, 1fr);
@@ -491,6 +502,19 @@ button {
     }
     .culinsights-content5, .culinsights-content7, .culinsights-content2, .culinsights-content3 {
         padding: 0 10px;
+    }
+    .video {
+        margin: 10px;
+    }
+    iframe {
+        width: 380px;
+        height: 250px;
+        border: none;
+        align-self: center;
+    }
+    .video4 {
+        margin-left: 0;
+        margin-bottom: 50px;
     }
 
 }
